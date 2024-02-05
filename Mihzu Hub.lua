@@ -1,10 +1,8 @@
---[[
-Cảm Ơn Bạn Đã Sử Dụng Dịch Vụ Tiến Tiny Chấm Sờ Pây, Chúc Bạn Có 1 Trải Nghiệm Vui Vẻ.
-Nếu Có Lỗi Hoặc Cần Hỗ Trợ Hãy Liên Hệ Trên Web Nhé, Bạn Có Thể Pr Cho Bạn Bè Nữa Càng Tốt:D
-Website: tientiny.space
-]]--
 
------- Vui Lòng Không Xoá Để Hoạt Động, Nếu Xoá Sever Tự Hủy Script :)
+
+
+
+
 local a = "\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\10"
 local b = "\66\97\99\107\117\112\45\83\99\114\105\112\116\47\109\97\105\110\47\83\101\118\101\114\10"
 local a = a .. b
