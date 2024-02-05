@@ -1,4 +1,10 @@
+--[[
+Cảm Ơn Bạn Đã Sử Dụng Dịch Vụ Tiến Tiny Chấm Sờ Pây, Chúc Bạn Có 1 Trải Nghiệm Vui Vẻ.
+Nếu Có Lỗi Hoặc Cần Hỗ Trợ Hãy Liên Hệ Trên Web Nhé, Bạn Có Thể Pr Cho Bạn Bè Nữa Càng Tốt:D
+Website: tientiny.space
+]]--
 
+------ Vui Lòng Không Xoá Để Hoạt Động, Nếu Xoá Sever Tự Hủy Script :)
 local a = "\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\10"
 local b = "\66\97\99\107\117\112\45\83\99\114\105\112\116\47\109\97\105\110\47\83\101\118\101\114\10"
 local a = a .. b
@@ -2484,11 +2490,11 @@ spawn(function()
     end
 end)
 
-local OrionLib = loadstring(game:HttpGet((' ')))()
-local Window = OrionLib:MakeWindow({Name = "Mihzu Hub", HidePremium = true, IntroText = "Sitink Library", SaveConfig = true, ConfigFolder = "Mihzu Hub"})
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "TienTiny.Space", HidePremium = false, IntroText = "MinGaming Library", SaveConfig = true, ConfigFolder = "Min Gaming Hub"})
 ----------Tab-----------------------
 local W = Window:MakeTab({
-    Name = "Status",
+    Name = "Thông Tin",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
@@ -2500,19 +2506,19 @@ local M = Window:MakeTab({
 })
 
 local ST = Window:MakeTab({
-    Name = "Settin",
+    Name = "Cài đặt",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
 
 local IQ = Window:MakeTab({
-    Name = "Items",
+    Name = "Vật phẩm",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
 
 local S = Window:MakeTab({
-    Name = "Stat",
+    Name = "chri số",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
@@ -2530,7 +2536,7 @@ local RA = Window:MakeTab({
 })
 
 local LC = Window:MakeTab({
-    Name = "Players",
+    Name = "người chơi",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
@@ -2542,31 +2548,31 @@ local Wld = Window:MakeTab({
 })
 
 local SV = Window:MakeTab({
-    Name = "Status Sever",
+    Name = "Thông tin server",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
 
 local D = Window:MakeTab({
-    Name = "Devil fruit",
+    Name = "Trái Ác quỷ",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
 
 local R = Window:MakeTab({
-    Name = "Race",
+    Name = "Tộc V4",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
 
 local SH = Window:MakeTab({
-    Name = "Shop",
+    Name = "cửa hàng",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
 
 local C = Window:MakeTab({
-    Name = "Mics",
+    Name = "khác",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
