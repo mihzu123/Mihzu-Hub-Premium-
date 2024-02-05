@@ -2491,88 +2491,88 @@ spawn(function()
 end)
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "TienTiny.Space", HidePremium = false, IntroText = "MinGaming Library", SaveConfig = true, ConfigFolder = "Min Gaming Hub"})
+local Window = OrionLib:MakeWindow({Name = " Apple Hub", HidePremium = false, IntroText = "By mnghiaa", SaveConfig = true, ConfigFolder = "Apple Hub"})
 ----------Tab-----------------------
 local W = Window:MakeTab({
-    Name = "Thông Tin",
+    Name = "Tab Status",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
 
 local M = Window:MakeTab({
-    Name = "Chính",
+    Name = "Tab Main",u
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
 
 local ST = Window:MakeTab({
-    Name = "Cài đặt",
+    Name = "Tab Setting",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
 
 local IQ = Window:MakeTab({
-    Name = "Vật phẩm",
+    Name = "Tab Items",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
 
 local S = Window:MakeTab({
-    Name = "chri số",
+    Name = "Tab Stat",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
 
 local E = Window:MakeTab({
-    Name = "định vị",
+    Name = "Tab Locate",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
 
 local RA = Window:MakeTab({
-    Name = "tập kích",
+    Name = "Tab Raid",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
 
 local LC = Window:MakeTab({
-    Name = "người chơi",
+    Name = "Tab Player",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
 
 local Wld = Window:MakeTab({
-    Name = "di chuyển",
+    Name = "Tab Teleport",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
 
 local SV = Window:MakeTab({
-    Name = "Thông tin server",
+    Name = "Tab Sever",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
 
 local D = Window:MakeTab({
-    Name = "Trái Ác quỷ",
+    Name = "Tab DF",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
 
 local R = Window:MakeTab({
-    Name = "Tộc V4",
+    Name = "Tab Race",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
 
 local SH = Window:MakeTab({
-    Name = "cửa hàng",
+    Name = "Tab shop",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
 
 local C = Window:MakeTab({
-    Name = "khác",
+    Name = "Tab Mics",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
