@@ -2491,7 +2491,7 @@ spawn(function()
 end)
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "TienTiny.Space", HidePremium = false, IntroText = "MinGaming Library", SaveConfig = true, ConfigFolder = "Min Gaming Hub"})
+local Window = OrionLib:MakeWindow({Name = "Mihzu Hub", HidePremium = false, IntroText = "Sitink Library", SaveConfig = true, ConfigFolder = "Mihzu Hub"})
 ----------Tab-----------------------
 local W = Window:MakeTab({
     Name = "Thông Tin",
@@ -2927,7 +2927,7 @@ end
     
     
     M:AddButton({
-        Name = "nhập hết code",
+        Name = "Reddem All Code",
         Callback = function()
             function RedeemCode(value)
                 game:GetService("ReplicatedStorage").Remotes.Redeem:InvokeServer(value)
@@ -2939,7 +2939,7 @@ end
     })
 
     local Section = M:AddSection({
-        Name = "Tự động Farm Level"
+        Name = "Auto farm level"
     })
 
 M:AddParagraph("Main Farm","")
@@ -2979,7 +2979,7 @@ end)
 
 
 M:AddToggle({
-    Name = "đến đảo kitsune",
+    Name = "Tele to Kitsune Island",
     Default = false,
     Flag = "KitsuneIslandTween",
     Save = true,
@@ -3011,7 +3011,7 @@ spawn(function()
 end)
 
 M:AddToggle({
-    Name = "nhặt lửa",
+    Name = "AutoAzureAmber",
     Default = false,
     Flag = "AutoAzureAmber",
     Save = true,
@@ -3086,7 +3086,7 @@ end
 M:AddParagraph("Sea Event","")
 
 M:AddToggle({
-    Name = "Đánh TerrorShark",
+    Name = "Auto Terroshark",
     Default = false,
     Flag = "Terrorshark",
     Save = true,
@@ -3097,7 +3097,7 @@ M:AddToggle({
 })
 
 M:AddToggle({
-    Name = "Đánh Shark",
+    Name = "Auto Shark",
     Default = false,
     Flag = "Shark",
     Save = true,
@@ -3145,7 +3145,7 @@ spawn(function()
 end)
 
 M:AddToggle({
-    Name = "Đánh Piranha",
+    Name = "Auto Piranha",
     Default = false,
     Flag = "Piranha",
     Save = true,
@@ -3157,7 +3157,7 @@ M:AddToggle({
 
 
 M:AddToggle({
-    Name = "Đánh Fish Crew",
+    Name = "Auto Fish Crew",
     Default = false,
     Flag = "FishCrew",
     Save = true,
@@ -3286,7 +3286,7 @@ local Section = M:AddSection({
 M:AddParagraph("Mastery Menu","")
 
 M:AddToggle({
-    Name = "Cày Thông thạo Trái",
+    Name = "Mastery DF",
     Default = false,
     Flag = "Mastery",
     Save = true,
@@ -3300,7 +3300,7 @@ M:AddToggle({
 })
 
 M:AddToggle({
-    Name = "Cày Thông thạo Súng",
+    Name = "Mastery Gun",
     Default = false,
     Flag = "Gun Mastery",
     Save = true,
@@ -3311,7 +3311,7 @@ M:AddToggle({
 })
 
     M:AddSlider({
-        Name = "Máu",
+        Name = "Health",
         Min = 0,
         Max = 100,
         Default = 25,
@@ -3428,7 +3428,7 @@ local Section = M:AddSection({
 })
 
 M:AddToggle({
-    Name = "Đánh Nhanh",
+    Name = "Fast Attack",
     Default = true,
     Flag = "FastAttack",
     Save = false,
@@ -3476,7 +3476,7 @@ local Section = M:AddSection({
 })
 
 M:AddToggle({
-    Name = "Di Chuyển = Reset",
+    Name = "Bypass tp,
     Default = false,
     Flag = "Bypass TP",
     Save = true,
@@ -3512,7 +3512,7 @@ local Section = M:AddSection({
 })
 
 Farmfasttoggle = M:AddToggle({
-    Name = "Cày Nhanh",
+    Name = "Farm fast",
     Default = false,
     Flag = "Farm Fast",
     Save = true,
